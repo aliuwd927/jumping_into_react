@@ -1,11 +1,13 @@
 import React from 'react';
 import './App.css';
+import Form from './components/Form';
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello World</h1>
-      <div></div>
+      <header>
+        <h1>Andy's Todo List</h1>
+      </header>
     </div>
   );
 }
