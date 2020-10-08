@@ -10,9 +10,9 @@ const Form = () => {
 
             <div className = 'select'>
                 <select name="todos" class="filter-todo">
-                    <option value="all"></option>
-                    <option value="completed"></option>
-                    <option value="uncompleted"></option>
+                    <option value="all">All</option>
+                    <option value="completed">Completed</option>
+                    <option value="uncompleted">Uncompleted</option>
                 </select>
             </div>
         </form>
